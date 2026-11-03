@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Waryung — Good Food · Good Mood</title>
+  <meta name="description" content="Waryung, warung nasi goreng, ayam geprek, dan aneka minuman segar. Good food, good mood.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Poppins:wght@400;500;600;700&family=Unbounded:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#beranda" class="brand" aria-label="Waryung, ke beranda">
+        <span class="brand__sign">WARYUNG</span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Navigasi utama">
+        <a href="#beranda" class="is-active">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#favorit">Favorit</a>
+        <a href="#lokasi">Lokasi</a>
+        <a href="#lokasi" class="nav__cta">Pesan Sekarang</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="awning" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">EST. 2026 · WARUNG KEKINIAN</p>
+          <h1>Nasi goreng panas,<br><span>es dingin,</span><br>hati senang.</h1>
+          <p class="hero__lead">Waryung menyajikan nasi goreng, ayam geprek, dan aneka minuman segar dengan harga bersahabat. Mampir, duduk santai, dan nikmati.</p>
+          <div class="hero__actions">
+            <a href="#menu" class="btn btn--primary">Lihat Menu</a>
+            <a href="#lokasi" class="btn btn--ghost">Cari Lokasi</a>
+          </div>
+          <ul class="hero__stats">
+            <li><b>4</b><span>Menu makanan</span></li>
+            <li><b>7</b><span>Pilihan minuman</span></li>
+            <li><b>4K</b><span>Mulai dari</span></li>
+          </ul>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__plate">
+            <img src="assets/img/nasi-goreng-spesial.jpg" alt="Nasi goreng spesial dengan telur ceplok dan kerupuk">
+          </div>
+          <div class="hero__chip hero__chip--a">
+            <img src="assets/img/es-teh.jpg" alt="">
+            <div><b>Es Teh</b><span>Rp 4K</span></div>
+          </div>
+          <div class="hero__chip hero__chip--b">
+            <img src="assets/img/ayam-geprek.jpg" alt="">
+            <div><b>Ayam Geprek</b><span>Rp 15K</span></div>
+          </div>
+          <div class="hero__badge">GOOD FOOD<br>· GOOD MOOD ·</div>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Nasi Goreng Ayam</span><i>✦</i><span>Nasi Goreng Petai</span><i>✦</i><span>Nasi Goreng Spesial</span><i>✦</i><span>Ayam Geprek</span><i>✦</i><span>Capcin</span><i>✦</i><span>Pop Ice</span><i>✦</i><span>Es Teh</span><i>✦</i><span>Aneka Jus</span><i>✦</i>
+          <span>Nasi Goreng Ayam</span><i>✦</i><span>Nasi Goreng Petai</span><i>✦</i><span>Nasi Goreng Spesial</span><i>✦</i><span>Ayam Geprek</span><i>✦</i><span>Capcin</span><i>✦</i><span>Pop Ice</span><i>✦</i><span>Es Teh</span><i>✦</i><span>Aneka Jus</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="tentang">
+      <div class="container about__grid">
+        <div class="about__photos reveal">
+          <img class="about__img about__img--1" src="assets/img/nasi-goreng-ayam.jpg" alt="Nasi goreng ayam">
+          <img class="about__img about__img--2" src="assets/img/strawberry-milkshake.jpg" alt="Strawberry milkshake">
+        </div>
+        <div class="about__text reveal">
+          <p class="eyebrow eyebrow--dark">TENTANG KAMI</p>
+          <h2>Rasa rumahan,<br>suasana warung kekinian.</h2>
+          <p>Waryung lahir dari kecintaan pada nasi goreng pinggir jalan yang selalu bikin kangen. Kami masak setiap porsi langsung di atas wajan panas, dengan bumbu racikan sendiri dan bahan yang dibeli segar setiap hari.</p>
+          <p>Tempatnya santai, harganya ramah di kantong, dan minumannya selalu dingin. Cocok buat makan siang, nongkrong sore, atau makan malam bareng teman.</p>
+          <ul class="features">
+            <li><span class="features__icon">🔥</span><div><b>Dimasak dadakan</b><small>Langsung dari wajan, selalu panas.</small></div></li>
+            <li><span class="features__icon">🌶️</span><div><b>Bumbu racikan sendiri</b><small>Sambal dan bumbu dibuat setiap hari.</small></div></li>
+            <li><span class="features__icon">🧊</span><div><b>Minuman segar</b><small>Dari es teh sampai milkshake.</small></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">DAFTAR MENU</p>
+          <h2>Pilih yang bikin<br>mood kamu naik.</h2>
+        </div>
+
+        <div class="tabs reveal" role="tablist" aria-label="Kategori menu">
+          <button class="tab is-active" role="tab" aria-selected="true" data-filter="all">Semua</button>
+          <button class="tab" role="tab" aria-selected="false" data-filter="makanan">Makanan</button>
+          <button class="tab" role="tab" aria-selected="false" data-filter="minuman">Minuman</button>
+        </div>
+
+        <div class="menu__grid" id="menuGrid">
+          <article class="dish" data-cat="makanan">
+            <div class="dish__img"><img src="assets/img/nasi-goreng-ayam.jpg" alt="Nasi Goreng Ayam" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag">Makanan</span><h3>Nasi Goreng Ayam</h3><p>Nasi goreng bumbu khas dengan suwiran ayam dan acar.</p><b class="dish__price">Rp 15K</b></div>
+          </article>
+          <article class="dish" data-cat="makanan">
+            <div class="dish__img"><img src="assets/img/nasi-goreng-petai.jpg" alt="Nasi Goreng Petai" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag">Makanan</span><h3>Nasi Goreng Petai</h3><p>Aroma petai yang khas, gurih dan bikin nagih.</p><b class="dish__price">Rp 17K</b></div>
+          </article>
+          <article class="dish dish--star" data-cat="makanan">
+            <div class="dish__img"><img src="assets/img/nasi-goreng-spesial.jpg" alt="Nasi Goreng Spesial" loading="lazy"><span class="dish__ribbon">Best Seller</span></div>
+            <div class="dish__body"><span class="dish__tag">Makanan</span><h3>Nasi Goreng Spesial</h3><p>Lengkap dengan telur ceplok, ayam, dan kerupuk.</p><b class="dish__price">Rp 20K</b></div>
+          </article>
+          <article class="dish" data-cat="makanan">
+            <div class="dish__img"><img src="assets/img/ayam-geprek.jpg" alt="Ayam Geprek" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag">Makanan</span><h3>Ayam Geprek</h3><p>Ayam crispy digeprek dengan sambal bawang pedas.</p><b class="dish__price">Rp 15K</b></div>
+          </article>
+          <article class="dish" data-cat="minuman">
+            <div class="dish__img"><img src="assets/img/capcin.jpg" alt="Capcin" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag dish__tag--drink">Minuman</span><h3>Capcin</h3><p>Cappuccino cincau dingin yang creamy.</p><b class="dish__price">Rp 8K</b></div>
+          </article>
+          <article class="dish" data-cat="minuman">
+            <div class="dish__img"><img src="assets/img/pop-ice.jpg" alt="Aneka Pop Ice" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag dish__tag--drink">Minuman</span><h3>Aneka Pop Ice</h3><p>Banyak rasa, tinggal pilih favoritmu.</p><b class="dish__price">Rp 6K</b></div>
+          </article>
+          <article class="dish" data-cat="minuman">
+            <div class="dish__img"><img src="assets/img/es-teh.jpg" alt="Es Teh" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag dish__tag--drink">Minuman</span><h3>Es Teh</h3><p>Teh manis dingin, teman wajib nasi goreng.</p><b class="dish__price">Rp 4K</b></div>
+          </article>
+          <article class="dish" data-cat="minuman">
+            <div class="dish__img"><img src="assets/img/lemon-tea.jpg" alt="Lemon Tea" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag dish__tag--drink">Minuman</span><h3>Lemon Tea</h3><p>Segar dengan perasan lemon asli.</p><b class="dish__price">Rp 6K</b></div>
+          </article>
+          <article class="dish" data-cat="minuman">
+            <div class="dish__img"><img src="assets/img/strawberry-milkshake.jpg" alt="Strawberry Milkshake" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag dish__tag--drink">Minuman</span><h3>Strawberry Milkshake</h3><p>Susu kental dan stroberi, manis dan lembut.</p><b class="dish__price">Rp 12K</b></div>
+          </article>
+          <article class="dish" data-cat="minuman">
+            <div class="dish__img"><img src="assets/img/chocolate.jpg" alt="Chocolate" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag dish__tag--drink">Minuman</span><h3>Chocolate</h3><p>Cokelat dingin pekat dengan topping krim.</p><b class="dish__price">Rp 10K</b></div>
+          </article>
+          <article class="dish" data-cat="minuman">
+            <div class="dish__img"><img src="assets/img/aneka-jus.jpg" alt="Aneka Jus" loading="lazy"></div>
+            <div class="dish__body"><span class="dish__tag dish__tag--drink">Minuman</span><h3>Aneka Jus</h3><p>Jus buah segar, rasa sesuai musim.</p><b class="dish__price">Rp 10K</b></div>
+          </article>
+          <article class="dish dish--cta" data-cat="all">
+            <h3>Lapar?<br>Pesan aja.</h3>
+            <p>Bisa makan di tempat, bungkus, atau pesan lewat WhatsApp.</p>
+            <a href="#lokasi" class="btn btn--dark">Pesan Sekarang</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="favorit" id="favorit">
+      <div class="container favorit__grid">
+        <div class="favorit__text reveal">
+          <p class="eyebrow">PAKET FAVORIT</p>
+          <h2>Combo hemat<br>buat perut kenyang.</h2>
+          <p>Gabungkan menu andalan dengan minuman segar. Pas buat makan siang cepat tanpa mikir panjang.</p>
+        </div>
+        <div class="combo reveal">
+          <div class="combo__card">
+            <div class="combo__imgs"><img src="assets/img/nasi-goreng-spesial.jpg" alt=""><img src="assets/img/es-teh.jpg" alt=""></div>
+            <h3>Paket Spesial</h3>
+            <p>Nasi Goreng Spesial + Es Teh</p>
+            <b>Rp 22K</b>
+          </div>
+          <div class="combo__card combo__card--alt">
+            <div class="combo__imgs"><img src="assets/img/ayam-geprek.jpg" alt=""><img src="assets/img/lemon-tea.jpg" alt=""></div>
+            <h3>Paket Geprek</h3>
+            <p>Ayam Geprek + Lemon Tea</p>
+            <b>Rp 19K</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lokasi" id="lokasi">
+      <div class="container lokasi__grid">
+        <div class="lokasi__info reveal">
+          <p class="eyebrow eyebrow--dark">LOKASI &amp; JAM BUKA</p>
+          <h2>Mampir ke Waryung.</h2>
+          <ul class="info">
+            <li><span>📍</span><div><b>Alamat</b><small>Jl. Contoh No. 12, Kota Anda</small></div></li>
+            <li><span>🕙</span><div><b>Jam buka</b><small>Setiap hari, 10.00 – 22.00</small></div></li>
+            <li><span>📱</span><div><b>WhatsApp</b><small>0812-0000-0000</small></div></li>
+          </ul>
+          <div class="hero__actions">
+            <a href="https://wa.me/6281200000000" class="btn btn--dark" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+            <a href="https://maps.google.com" class="btn btn--outline" target="_blank" rel="noopener">Buka Google Maps</a>
+          </div>
+        </div>
+        <div class="lokasi__card reveal">
+          <div class="awning awning--small" aria-hidden="true"></div>
+          <div class="lokasi__sign">
+            <span class="lokasi__rope"></span>
+            <div class="sign">WARYUNG</div>
+            <p>GOOD FOOD · GOOD MOOD</p>
+            <small>EST. 2026</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <span class="brand__sign">WARYUNG</span>
+        <p>Good food · Good mood.</p>
+      </div>
+      <nav class="footer__links" aria-label="Navigasi footer">
+        <a href="#beranda">Beranda</a><a href="#tentang">Tentang</a><a href="#menu">Menu</a><a href="#favorit">Favorit</a><a href="#lokasi">Lokasi</a>
+      </nav>
+      <p class="footer__copy">© <span id="year">2026</span> Waryung</p>
+    </div>
+    <details class="container credits">
+      <summary>Kredit foto</summary>
+      <p>Foto dari Wikimedia Commons: christian r from Singapore (CC BY-SA 2.0); Gunawan Kartapranata (CC BY-SA 3.0); Helito, Irhanz, Lajmmoore, Rtnf, Muhammad Reyhand, Geoffreyrabbit, B722N (CC BY-SA 4.0); Andy Li, Jakub Kapušňák (CC0). Foto dipotong dan diperkecil.</p>
+    </details>
+  </footer>
+
+  <a href="#beranda" class="to-top" id="toTop" aria-label="Kembali ke atas">↑</a>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
